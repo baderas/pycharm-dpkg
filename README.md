@@ -1,5 +1,5 @@
 # pycharm-dpkg
-Creates Debian Package for Jetbrains's PyCharm
+Creates Debian package for Jetbrains's PyCharm
 
 SYNOPSIS
 --------
@@ -88,7 +88,7 @@ them. The scripts also depend on jetbrains to not change the way they
 package and distribute the tar files.
 
 This is just a first adoption of trygvis's [intellij-idea-dpkg](https://github.com/trygvis/intellij-idea-dpkg)
-and works for me but is still very untested!
+and works for me, but it is still very untested!
 
 If you find a bug, please file a bug on GitHub:
 http://github.com/baderas/pycharm-dpkg/issues
