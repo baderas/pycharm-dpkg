@@ -1,0 +1,9 @@
+Package: pycharm-FLAVOR_LOWER
+Section: devel
+Version: VERSION
+Maintainer: Andreas Bader <Development@Geekparadise.de>
+Architecture: all
+Depends: openjdk-7-jre | sun-java6-jre | openjdk-6-jre | openjdk-7-jdk | sun-java6-jdk | openjdk-6-jdk | ibm-j2sdk1.7, python | python3
+Conflicts: pycharm-OTHER_FLAVOR_LOWER, pycharm-OTHER_FLAVOR, pycharm-FLAVOR
+Description: The Most Intelligent Python IDE
+
