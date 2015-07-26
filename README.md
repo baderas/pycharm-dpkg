@@ -72,11 +72,11 @@ Example 1: Creating a package of the latest Community Edition.
 The flavor can be overridden with `-f`. This option will also be
 remembered for the next run.
 
-Example 3: Creating a Debian package of the 4.0.6 build of the Community Edition.
+Example 2: Creating a Debian package of the 4.0.6 build of the Community Edition.
 
     ./build-package -f community -v 4.0.6
 
-Example 4: Creating a Debian from a custom build of IDEA:
+Example 3: Creating a Debian from a custom build of IDEA:
 
     ./build-package -f community -v 1.2.3 -s pycharm-community-1.2.3
 
