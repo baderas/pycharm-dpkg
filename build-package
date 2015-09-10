@@ -226,7 +226,8 @@ if [ -z "$src_dir" ]
 then
   if [ -z "$version" ]
   then
-    version="4.5.3"
+    versionURL="https://www.jetbrains.com$(wget -q "https://www.jetbrains.com/pycharm/download/" -O - | grep -o -P "<script type=\"text/javascript\" src=\"/js2/version.js\?ver=[0-9]+\"></script>" | grep -o -E "/js2/version.js\?ver=[0-9]+")"
+    version=$(wget -q "$versionURL" -O - | grep -E "var versionPyCharmLong = \"[0-9]+\.[0-9]+\.[0-9]+\"" | grep -E -o "[0-9]+\.[0-9]+\.[0-9]+")
     echo "The latest version is $version"
   fi
   url=http://download.jetbrains.com/python/pycharm-$flavor-$version.tar.gz
