@@ -16,14 +16,11 @@ specific/native tools and/or distributed from local package repositories.
 It currently only supports building packages of the stable builds of PyCharm, 
 either by downloading the latest version directly from Jetbrains's servers 
 or by being pointed to a build output directory and use that.
-Newest version is hardcoded or must be passed with -v, no automatic detection
-of newest stable version!
 
 This is a adopted version from trygvis's [intellij-idea-dpkg](https://github.com/trygvis/intellij-idea-dpkg)
 with following limitations:
 * No support for EAP version
 * No support for Solaris Builds
-* No support for automatic detection of newest stable/EAP version
 * Professional Edition is untested (but implemented!)
 * Only tested on Debian Jessie
 
@@ -60,7 +57,7 @@ OPTIONS
 * `-v <version>`
 
     The version of the build to use. If not specified the script will
-    automatically download stable version 4.5.3.
+    automatically download the newest stable version.
 
 EXAMPLES
 -------
