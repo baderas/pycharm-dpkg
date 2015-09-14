@@ -1,5 +1,5 @@
 # pycharm-dpkg
-Creates Debian Package for Jetbrains's PyCharm
+Creates Debian package for Jetbrains's PyCharm
 
 SYNOPSIS
 --------
@@ -69,11 +69,11 @@ Example 1: Creating a package of the latest Community Edition.
 The flavor can be overridden with `-f`. This option will also be
 remembered for the next run.
 
-Example 3: Creating a Debian package of the 4.0.6 build of the Community Edition.
+Example 2: Creating a Debian package of the 4.0.6 build of the Community Edition.
 
     ./build-package -f community -v 4.0.6
 
-Example 4: Creating a Debian from a custom build of IDEA:
+Example 3: Creating a Debian from a custom build of IDEA:
 
     ./build-package -f community -v 1.2.3 -s pycharm-community-1.2.3
 
@@ -85,7 +85,7 @@ them. The scripts also depend on jetbrains to not change the way they
 package and distribute the tar files.
 
 This is just a first adoption of trygvis's [intellij-idea-dpkg](https://github.com/trygvis/intellij-idea-dpkg)
-and works for me but is still very untested!
+and works for me, but it is still very untested!
 
 If you find a bug, please file a bug on GitHub:
 http://github.com/baderas/pycharm-dpkg/issues
