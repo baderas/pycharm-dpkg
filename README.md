@@ -1,6 +1,9 @@
 # pycharm-dpkg
 Creates Debian package for Jetbrains's PyCharm
 
+**Note: pycharm-dpkg is deprecated, please use [package-jetbrains-ide](https://github.com/baderas/package-jetbrains-ide)!**
+
+
 SYNOPSIS
 --------
 
